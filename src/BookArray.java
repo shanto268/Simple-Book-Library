@@ -23,6 +23,7 @@ public class BookArray {
 	    	books[index] = f;
 	    }
 		index++;
+		myObj.close();
 	}
 	
 	public void fillArray() {
